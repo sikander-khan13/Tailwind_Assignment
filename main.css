@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .p1{
+        @apply text-[#00FF84] font-semibold;
+    }
+
+    .p2{
+        @apply md:text-lg text-xs dark:text-white;
+    }
+
+    .tag{
+        @apply bg-white border border-red-600 text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-xl hover:bg-black hover:text-white transition-all cursor-pointer ;
+    }
+}
+
+.p0{
+    background-image: url(images/brooke.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.p2{
+    position: relative;
+}
